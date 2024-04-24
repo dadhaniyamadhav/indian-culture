@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Welcome to Indian Culture</title>
+ <style>
+   body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-image: url('photos-index/indian-culture-theme-slide1.png');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between; /* Align content vertically at the start and end of the container */
+     color: #fff;
+     position: relative; /* Add relative positioning to allow absolute positioning */
+   }
+ 
+   .container {
+     text-align: center;
+     background: transparent;
+     padding: 20px;
+     cursor: pointer;
+     border: 5px solid #ccc;
+     border-radius: 10px;
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     position: absolute;
+     bottom: 20px; /* Move container to the bottom */
+     left: 50%; /* Align container to the center horizontally */
+     transform: translateX(-50%); /* Adjust for center alignment */
+   }
+   .container:hover{
+    color: #cc3700;
+    background-color: white;
+   }
+ 
+   h1 {
+     font-size: 3em;
+     margin-bottom: 20px;
+   }
+ 
+   p {
+     font-size: 1.5em;
+     margin-bottom: 30px;
+   }
+ 
+   a {
+     padding: 10px 20px;
+     background: transparent;
+     border: 4px solid #ccc;
+     color: #cc3700;
+     font-weight: 500;
+     text-decoration: none;
+     border-radius: 5px;
+     font-size: 25px;
+     transition: background-color 0.3s ease;
+   }
+ 
+   a:hover {
+     background-color: #cc3700;
+     color: whitesmoke;
+     font-weight: 800;
+   }
+ </style>
+ </head>
+ <body>
+   <div class="container">
+     <h1>Welcome to Indian Culture</h1>
+     <p>Explore the rich heritage, traditions, and diversity of India.</p>
+     <a href="Gallary.html">Get Started</a>
+   </div>
+ </body>
+ </html>
+ 
+
+
